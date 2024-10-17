@@ -14,7 +14,7 @@ public class Exercise31 {
         try{
             String read ="";
             buffer = new BufferedReader(new FileReader(new File(file)));
-            while ((read = buffer.readLine())!=null){
+            while ((read = buffer.readLine()) != null){
                 System.out.println(read);
             }
             buffer.close();
